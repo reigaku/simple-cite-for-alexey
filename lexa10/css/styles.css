@@ -1,0 +1,282 @@
+@font-face { 
+    font-family: 'Roboto', sans-serif; 
+    
+    src:url(../fonts/Roboto-Regular.ttf)  format("truetype");
+    font-weight: 400; 
+    font-style: normal; 
+}
+@font-face { 
+    font-family: 'Roboto', sans-serif; 
+    
+    src:url(../fonts/Roboto-Bold.ttf)  format("truetype");
+    font-weight: 700; 
+    font-style: normal; 
+}
+@font-face { 
+    font-family: 'Roboto', sans-serif; 
+    
+    src:url(../fonts/Roboto-Medium.ttf)  format("truetype");
+    font-weight: 500; 
+    font-style: normal; 
+}
+
+.wrapper{
+    max-width: 1366px;
+    margin: 0 auto;
+    background:     #FAFAFA;
+    height: 1084px;
+}
+
+header{
+    background: #FFFFFF;
+    height: 56px;
+    margin-bottom: 40px;
+}
+
+.single__menu-tab{
+    display: flex;
+    flex-direction: row;
+    padding-top: 18px;
+    height: 36px;
+    
+}
+
+.tab__menu-link{
+    display: flex;
+    text-decoration: none;
+    opacity: 0.75;
+}
+
+.svg__icon{
+    margin-right: 8px;
+    color: #000000;
+
+    
+    
+}
+
+
+
+.header__wrapper{
+    max-width: 1196px;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+
+.tab__title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+    
+    margin-right: 40px;
+    text-decoration: none;
+    
+
+}
+
+.exit__tab__title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+    
+    margin-left: 556px;
+    margin-right: 8px;
+    text-decoration: none;
+}
+
+.exit__svg__icon{
+    
+    color: #000000;
+
+    
+}
+
+.tab__menu-link:hover{
+    opacity: 1;
+}
+
+.case__container{
+    width: 573px;
+    height: 428px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.case__wrapper{
+    max-width: 513px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.app__back{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #3E2CA9;
+
+    opacity: 0.8;
+    background: transparent;
+    border: none;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.app__back:hover{
+    opacity: 1;
+}
+
+.to__application_butt{
+    width: 270px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #3E2CA9;
+
+
+    background: #FFFFFF;
+    border: 1px solid #3E2CA9;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.to__pass__butt{
+    width: 270px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #3E2CA9;
+
+
+    background: #FFFFFF;
+    border: 1px solid #3E2CA9;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.to__application_butt:hover{
+    background: #FAFAFA;
+}
+
+.to__pass__butt:hover{
+    background: #FAFAFA;
+}
+
+.create__case__title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+    margin-right: 8px;
+}
+
+.create__case__subtitle{
+    display: block;
+    width: 222px;
+    height: 23px;
+
+    background: #6865E9;
+    border-radius: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+.goal__comment{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #000000;
+    margin-bottom: 4px;
+
+}
+
+.comment__text{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* or 150% */
+
+
+    color: #3F3F3F;
+    margin-bottom: 20px;
+
+}
+
+.flex__app__info{
+    display: flex;
+    flex-direction: row;
+}
+
+.create__case__flex{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.case__flex{
+    display: flex;
+}
+
+.case__label__flex{
+    display: flex;
+}
+
+.case__info__flex{
+    display: flex;
+}
+
+.meeting__flex{
+    display: flex;
+}
+
