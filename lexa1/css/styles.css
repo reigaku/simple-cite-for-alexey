@@ -1,0 +1,210 @@
+@font-face { 
+    font-family: 'Roboto', sans-serif; 
+    
+    src:url(../fonts/Roboto-Regular.ttf)  format("truetype");
+    font-weight: 400; 
+    font-style: normal; 
+}
+@font-face { 
+    font-family: 'Roboto', sans-serif; 
+    
+    src:url(../fonts/Roboto-Bold.ttf)  format("truetype");
+    font-weight: 700; 
+    font-style: normal; 
+}
+@font-face { 
+    font-family: 'Roboto', sans-serif; 
+    
+    src:url(../fonts/Roboto-Medium.ttf)  format("truetype");
+    font-weight: 500; 
+    font-style: normal; 
+}
+
+.wrapper{
+    max-width: 1366px;
+    margin: 0 auto;
+    background:     #FAFAFA;
+    height: 936px;
+}
+
+.login__wrapper{
+    max-width: 323px;
+    margin: 0 auto;
+    
+}
+
+.login__container{
+    position: absolute;
+    top: 208px;
+    left: 776px;
+    
+    width: 368px;
+    height: 334px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    
+}
+
+.login__title{
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login__lable{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #8A8A8A;
+    margin-bottom: 2px;
+
+}
+
+.input__cont{
+    width: 323px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #C7C7C7;
+    box-sizing: border-box;
+    padding-left: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+::placeholder{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+    opacity: 0.2;
+}
+
+.manager__lable{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #8A8A8A;
+  display: block;
+  height: 20px;
+  
+    
+    
+    
+    
+    
+    
+
+}
+
+.manager__box{
+    width: 20px;
+    height: 20px;
+    background: #FFFFFF;
+    border: 1px solid #C7C7C7;
+    box-sizing: border-box;
+    margin-right: 10px;
+    margin-bottom: 12px;
+    padding-top: 4px;
+}
+
+.login__button{
+    width: 323px;
+    height: 40px;
+    background: #3E2CA9;
+    opacity: 0.95;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.login__button:hover{
+    background: #3E2CA9;
+    opacity: 1;
+
+}
+
+.no__acc{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #000000;
+    text-align: center;
+}
+
+.reg__link{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #6865E9;
+    text-decoration: none;
+
+}
+
+.wrong__pass{
+    position: absolute;
+    top: 550px;
+    left: 776px;
+    width: 368px;
+    height: 40px;
+
+    background: #FFFFFF;
+    border: 1px solid #BD0303;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #9A0000;
+    text-align: center;
+    padding-top: 12px;
+
+
+}
+
+.wrong__pass{
+    display: none;
+}
