@@ -1,0 +1,213 @@
+@font-face { 
+    font-family: 'Roboto', sans-serif; 
+    
+    src:url(../fonts/Roboto-Regular.ttf)  format("truetype");
+    font-weight: 400; 
+    font-style: normal; 
+}
+@font-face { 
+    font-family: 'Roboto', sans-serif; 
+    
+    src:url(../fonts/Roboto-Bold.ttf)  format("truetype");
+    font-weight: 700; 
+    font-style: normal; 
+}
+@font-face { 
+    font-family: 'Roboto', sans-serif; 
+    
+    src:url(../fonts/Roboto-Medium.ttf)  format("truetype");
+    font-weight: 500; 
+    font-style: normal; 
+}
+
+
+.wrapper{
+    max-width: 1366px;
+    margin: 0 auto;
+    background:     #FAFAFA;
+    height: 1084px;
+}
+
+.registration__wrapper{
+    max-width: 323px;
+    margin: 0 auto;
+    
+}
+
+.registration__container{
+    position: absolute;
+    top: 208px;
+    left: 776px;
+    
+    width: 368px;
+    height: 854px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    
+}
+
+.registration__title{
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.registration__lable{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #8A8A8A;
+    margin-bottom: 2px;
+
+}
+
+.input__cont{
+    width: 323px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #C7C7C7;
+    box-sizing: border-box;
+    padding-left: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+::placeholder{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+    opacity: 0.2;
+}
+
+
+
+.registration__button{
+    width: 323px;
+    height: 40px;
+    background: #3E2CA9;
+    opacity: 0.95;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.registration__button:hover{
+    background: #3E2CA9;
+    opacity: 1;
+
+}
+
+.no__acc{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #000000;
+    text-align: center;
+}
+
+.reg__link{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #6865E9;
+    text-decoration: none;
+
+}
+
+.radio{
+    display: inline-flex;
+    overflow: hidden;
+}
+
+.radio__input{
+    display: none;
+}
+
+.radio__label{
+    display: block;
+    width: 169px;
+    height: 40px;
+    background: #FFFFFF;
+    opacity: 0.95;
+    border: 1px solid #3E2CA9;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #3E2CA9;
+
+    opacity: 0.95;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 11px;
+}
+
+.radio__label:hover{
+    background: #C7C7C7;
+}
+
+.radio__label:last-child{
+    border-left: none;
+}
+
+.radio__input:checked + .radio__label{
+    background: #3E2CA9;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+
+.sex__cont{
+    display: flex;
+    margin-bottom: 10px;
+}
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aleksey</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <img src="./img/Rectangle 6.png" alt="" class="header__pic">
+        <div class="registration__container">
+            <div class="registration__wrapper">
+                <form action="#!" class="registration__form">
+                    <h1 class="registration__title">Регистрация</h1>
+                    <label for="registration__input" class="registration__lable">Логин:*</label><br>
+                    <input type="text" id="registration__input" class="input__cont" placeholder="Введите ваш логин"><br>
+
+                    <label for="password__input" class="registration__lable">Пароль:*</label><br>
+                    <input type="password" id="password__input" class="input__cont" placeholder="********"><br>
+
+                    <label for="name__input" class="registration__lable">Имя:*</label><br>
+                    <input type="text" id="name__input" class="input__cont" placeholder="Иван"><br>
+
+                    <label for="surname__input" class="registration__lable">Фамилия:*</label><br>
+                    <input type="text" id="surname__input" class="input__cont" placeholder="Иванов"><br>
+
+                    <label for="patronymic__input" class="registration__lable">Отчество:*</label><br>
+                    <input type="text" id="patronymic__input" class="input__cont" placeholder="Иванович"><br>
+
+                    <label for="date__input" class="registration__lable">Дата рождения:*</label><br>
+                    <input placeholder="21.12.2020" class="input__cont" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date__input" /><br>
+
+                    <label for="pasport-serial__input" class="registration__lable">Серия паспорта:*</label><br>
+                    <input type="text" id="pasport-serial__input" class="input__cont" placeholder="123"><br>
+
+                    <label for="sex__input" class="registration__lable">Пол:*</label><br>
+
+                    <div class="sex__cont">
+                        <input type="radio" name="gender" class="radio__input" id="male__radio">
+                        <label for="male__radio"class="radio__label">Муж.</label>
+
+                        <input type="radio" name="gender" class="radio__input" id="female__radio">
+                        <label for="female__radio" class="radio__label">Жен.</label>
+                    </div>
+
+                    <label for="pasport__input" class="registration__lable">Поле паспорта:*</label><br>
+                    <input type="text" id="pasport__input" class="input__cont" placeholder="123"><br>
+
+                    <label for="department__input" class="registration__lable">Код подразделения:*</label><br>
+                    <input type="text" id="department__input" class="input__cont" placeholder="123"><br>
+                    
+
+
+                    <input type="submit" class="registration__button" value="ЗАРЕГИСТРИРОВАТЬСЯ">
+                    
+                </form>
+                <p class="no__acc">Уже есть аккаунт?<a href="#!" class="reg__link"> Войти</a></p>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
